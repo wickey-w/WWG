@@ -13,6 +13,8 @@
 		AC359BDC2106C4FD00279DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC359BDB2106C4FD00279DCA /* Assets.xcassets */; };
 		AC359BDF2106C4FD00279DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC359BDD2106C4FD00279DCA /* LaunchScreen.storyboard */; };
 		AC359BE22106C4FD00279DCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC359BE12106C4FD00279DCA /* main.m */; };
+		AC359BEB2106C6AB00279DCA /* GoldPriceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AC359BE92106C6AB00279DCA /* GoldPriceVC.m */; };
+		AC359BEC2106C6AB00279DCA /* GoldPriceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC359BEA2106C6AB00279DCA /* GoldPriceVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		AC359BDE2106C4FD00279DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC359BE02106C4FD00279DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC359BE12106C4FD00279DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC359BE82106C6AB00279DCA /* GoldPriceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoldPriceVC.h; sourceTree = "<group>"; };
+		AC359BE92106C6AB00279DCA /* GoldPriceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldPriceVC.m; sourceTree = "<group>"; };
+		AC359BEA2106C6AB00279DCA /* GoldPriceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoldPriceVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				AC359BD32106C4FD00279DCA /* AppDelegate.m */,
 				AC359BD52106C4FD00279DCA /* ViewController.h */,
 				AC359BD62106C4FD00279DCA /* ViewController.m */,
+				AC359BE82106C6AB00279DCA /* GoldPriceVC.h */,
+				AC359BE92106C6AB00279DCA /* GoldPriceVC.m */,
+				AC359BEA2106C6AB00279DCA /* GoldPriceVC.xib */,
 				AC359BD82106C4FD00279DCA /* Main.storyboard */,
 				AC359BDB2106C4FD00279DCA /* Assets.xcassets */,
 				AC359BDD2106C4FD00279DCA /* LaunchScreen.storyboard */,
@@ -131,6 +139,7 @@
 			files = (
 				AC359BDF2106C4FD00279DCA /* LaunchScreen.storyboard in Resources */,
 				AC359BDC2106C4FD00279DCA /* Assets.xcassets in Resources */,
+				AC359BEC2106C6AB00279DCA /* GoldPriceVC.xib in Resources */,
 				AC359BDA2106C4FD00279DCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +153,7 @@
 			files = (
 				AC359BD72106C4FD00279DCA /* ViewController.m in Sources */,
 				AC359BE22106C4FD00279DCA /* main.m in Sources */,
+				AC359BEB2106C6AB00279DCA /* GoldPriceVC.m in Sources */,
 				AC359BD42106C4FD00279DCA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
