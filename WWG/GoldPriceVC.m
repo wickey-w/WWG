@@ -148,7 +148,7 @@
 #pragma mark---- SKPSMTPMessageDelegate ----
 - (void)messageSent:(SKPSMTPMessage *)message
 {
-    NSLog(@"恭喜,邮件发送成功");
+    NSLog(@"恭喜,邮件发送成功 快快快看");
     
     if ([message.toEmail isEqualToString:address1]) {
         [self judgeWith:self.currentPrice mailAress:address2];
