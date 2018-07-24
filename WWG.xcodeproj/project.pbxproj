@@ -13,8 +13,13 @@
 		AC359BDC2106C4FD00279DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC359BDB2106C4FD00279DCA /* Assets.xcassets */; };
 		AC359BDF2106C4FD00279DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC359BDD2106C4FD00279DCA /* LaunchScreen.storyboard */; };
 		AC359BE22106C4FD00279DCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC359BE12106C4FD00279DCA /* main.m */; };
-		AC359BEB2106C6AB00279DCA /* GoldPriceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AC359BE92106C6AB00279DCA /* GoldPriceVC.m */; };
 		AC359BEC2106C6AB00279DCA /* GoldPriceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC359BEA2106C6AB00279DCA /* GoldPriceVC.xib */; };
+		ED02D04D21071BBA00964974 /* GoldPriceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED02D04C21071BBA00964974 /* GoldPriceVC.m */; };
+		ED02D05921071CE200964974 /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = ED02D05021071CE200964974 /* Base64Transcoder.m */; };
+		ED02D05A21071CE200964974 /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = ED02D05221071CE200964974 /* HSK_CFUtilities.m */; };
+		ED02D05B21071CE200964974 /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED02D05421071CE200964974 /* NSData+Base64Additions.m */; };
+		ED02D05C21071CE200964974 /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED02D05621071CE200964974 /* NSStream+SKPSMTPExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ED02D05D21071CE200964974 /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ED02D05821071CE200964974 /* SKPSMTPMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +34,18 @@
 		AC359BE02106C4FD00279DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC359BE12106C4FD00279DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC359BE82106C6AB00279DCA /* GoldPriceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoldPriceVC.h; sourceTree = "<group>"; };
-		AC359BE92106C6AB00279DCA /* GoldPriceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldPriceVC.m; sourceTree = "<group>"; };
 		AC359BEA2106C6AB00279DCA /* GoldPriceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoldPriceVC.xib; sourceTree = "<group>"; };
+		ED02D04C21071BBA00964974 /* GoldPriceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoldPriceVC.m; sourceTree = "<group>"; };
+		ED02D04F21071CE200964974 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		ED02D05021071CE200964974 /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		ED02D05121071CE200964974 /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		ED02D05221071CE200964974 /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		ED02D05321071CE200964974 /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		ED02D05421071CE200964974 /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		ED02D05521071CE200964974 /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		ED02D05621071CE200964974 /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		ED02D05721071CE200964974 /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		ED02D05821071CE200964974 /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +78,13 @@
 		AC359BD12106C4FD00279DCA /* WWG */ = {
 			isa = PBXGroup;
 			children = (
+				ED02D04E21071CE200964974 /* SMTPLibrary */,
 				AC359BD22106C4FD00279DCA /* AppDelegate.h */,
 				AC359BD32106C4FD00279DCA /* AppDelegate.m */,
 				AC359BD52106C4FD00279DCA /* ViewController.h */,
 				AC359BD62106C4FD00279DCA /* ViewController.m */,
 				AC359BE82106C6AB00279DCA /* GoldPriceVC.h */,
-				AC359BE92106C6AB00279DCA /* GoldPriceVC.m */,
+				ED02D04C21071BBA00964974 /* GoldPriceVC.m */,
 				AC359BEA2106C6AB00279DCA /* GoldPriceVC.xib */,
 				AC359BD82106C4FD00279DCA /* Main.storyboard */,
 				AC359BDB2106C4FD00279DCA /* Assets.xcassets */,
@@ -77,6 +93,23 @@
 				AC359BE12106C4FD00279DCA /* main.m */,
 			);
 			path = WWG;
+			sourceTree = "<group>";
+		};
+		ED02D04E21071CE200964974 /* SMTPLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				ED02D04F21071CE200964974 /* Base64Transcoder.h */,
+				ED02D05021071CE200964974 /* Base64Transcoder.m */,
+				ED02D05121071CE200964974 /* HSK_CFUtilities.h */,
+				ED02D05221071CE200964974 /* HSK_CFUtilities.m */,
+				ED02D05321071CE200964974 /* NSData+Base64Additions.h */,
+				ED02D05421071CE200964974 /* NSData+Base64Additions.m */,
+				ED02D05521071CE200964974 /* NSStream+SKPSMTPExtensions.h */,
+				ED02D05621071CE200964974 /* NSStream+SKPSMTPExtensions.m */,
+				ED02D05721071CE200964974 /* SKPSMTPMessage.h */,
+				ED02D05821071CE200964974 /* SKPSMTPMessage.m */,
+			);
+			path = SMTPLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED02D05A21071CE200964974 /* HSK_CFUtilities.m in Sources */,
+				ED02D05C21071CE200964974 /* NSStream+SKPSMTPExtensions.m in Sources */,
+				ED02D05D21071CE200964974 /* SKPSMTPMessage.m in Sources */,
 				AC359BD72106C4FD00279DCA /* ViewController.m in Sources */,
 				AC359BE22106C4FD00279DCA /* main.m in Sources */,
-				AC359BEB2106C6AB00279DCA /* GoldPriceVC.m in Sources */,
+				ED02D05B21071CE200964974 /* NSData+Base64Additions.m in Sources */,
+				ED02D04D21071BBA00964974 /* GoldPriceVC.m in Sources */,
+				ED02D05921071CE200964974 /* Base64Transcoder.m in Sources */,
 				AC359BD42106C4FD00279DCA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,10 +327,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3H999QENZH;
+				DEVELOPMENT_TEAM = MJV266RTU5;
 				INFOPLIST_FILE = WWG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wickey.WWG;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wickey.WWGwxx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,10 +341,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3H999QENZH;
+				DEVELOPMENT_TEAM = MJV266RTU5;
 				INFOPLIST_FILE = WWG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wickey.WWG;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wickey.WWGwxx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
