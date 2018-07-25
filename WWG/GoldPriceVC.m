@@ -49,7 +49,6 @@
 //    if (_myMessage == nil) {
     
         SKPSMTPMessage *myMessage = [[SKPSMTPMessage alloc] init];
-        myMessage.fromEmail = @"wzs9658@163.com";
         
         myMessage.toEmail = @"1224708605@qq.com";
         myMessage.bccEmail = @"418496179@qq.com";
@@ -65,10 +64,9 @@
         
         
         if (myMessage.requiresAuth) {
-            myMessage.login = @"wzs9658@163.com";
-            
             myMessage.pass = @"wzs888888";
-            
+            myMessage.login = sendAddress;
+            myMessage.pass = sendPassword;
         }
         
         myMessage.wantsSecure = YES; //为gmail邮箱设置 smtp.gmail.com
@@ -173,7 +171,7 @@
 
     
     myMessage.toEmail = address;
-    currentPrice = currentPrice;
+    self.currentPrice = currentPrice;
     
     
     //设置邮件内容
