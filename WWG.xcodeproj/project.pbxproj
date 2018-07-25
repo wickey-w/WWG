@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A18C0E8097C9BEC1A46085C /* libPods-WWG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E50CF6A2BDD9C2D249FAC94 /* libPods-WWG.a */; };
 		AC359BD42106C4FD00279DCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC359BD32106C4FD00279DCA /* AppDelegate.m */; };
 		AC359BD72106C4FD00279DCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC359BD62106C4FD00279DCA /* ViewController.m */; };
 		AC359BDA2106C4FD00279DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC359BD82106C4FD00279DCA /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E50CF6A2BDD9C2D249FAC94 /* libPods-WWG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWG.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC359BCF2106C4FD00279DCA /* WWG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC359BD22106C4FD00279DCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC359BD32106C4FD00279DCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,6 +37,7 @@
 		AC359BE12106C4FD00279DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC359BE82106C6AB00279DCA /* GoldPriceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoldPriceVC.h; sourceTree = "<group>"; };
 		AC359BEA2106C6AB00279DCA /* GoldPriceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoldPriceVC.xib; sourceTree = "<group>"; };
+		CEA9338361648A815628A32A /* Pods-WWG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWG.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWG/Pods-WWG.release.xcconfig"; sourceTree = "<group>"; };
 		ED02D04C21071BBA00964974 /* GoldPriceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoldPriceVC.m; sourceTree = "<group>"; };
 		ED02D04F21071CE200964974 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
 		ED02D05021071CE200964974 /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		ED02D05621071CE200964974 /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
 		ED02D05721071CE200964974 /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
 		ED02D05821071CE200964974 /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+		F50D244854B7D1177B30567D /* Pods-WWG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWG/Pods-WWG.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A18C0E8097C9BEC1A46085C /* libPods-WWG.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B6E041BE4E4BC0937CC4776 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F50D244854B7D1177B30567D /* Pods-WWG.debug.xcconfig */,
+				CEA9338361648A815628A32A /* Pods-WWG.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC359BC62106C4FD00279DCA = {
 			isa = PBXGroup;
 			children = (
 				AC359BD12106C4FD00279DCA /* WWG */,
 				AC359BD02106C4FD00279DCA /* Products */,
+				7B6E041BE4E4BC0937CC4776 /* Pods */,
+				D27382A4611F1940C5280637 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +111,14 @@
 			path = WWG;
 			sourceTree = "<group>";
 		};
+		D27382A4611F1940C5280637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E50CF6A2BDD9C2D249FAC94 /* libPods-WWG.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED02D04E21071CE200964974 /* SMTPLibrary */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +143,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC359BE52106C4FD00279DCA /* Build configuration list for PBXNativeTarget "WWG" */;
 			buildPhases = (
+				57FB72F565A62185715BE28F /* [CP] Check Pods Manifest.lock */,
 				AC359BCB2106C4FD00279DCA /* Sources */,
 				AC359BCC2106C4FD00279DCA /* Frameworks */,
 				AC359BCD2106C4FD00279DCA /* Resources */,
@@ -178,6 +203,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57FB72F565A62185715BE28F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WWG-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC359BCB2106C4FD00279DCA /* Sources */ = {
@@ -324,6 +370,7 @@
 		};
 		AC359BE62106C4FD00279DCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50D244854B7D1177B30567D /* Pods-WWG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -338,6 +385,7 @@
 		};
 		AC359BE72106C4FD00279DCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA9338361648A815628A32A /* Pods-WWG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

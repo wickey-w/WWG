@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <SMS_SDK/SMSSDK.h>
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    [SMSSDK getVerificationCodeByMethod:SMSGetCodeMethodSMS phoneNumber:@"15871010403" zone:@"86" template:@"hello world" result:^(NSError *error) {
+//        NSLog(@"%s result:%@",__func__,error?error.localizedDescription:@"请求成功");
+//    }];
+    
+    NSDate *date = [NSDate date];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSDate *nowdate = [NSDate date];
+        NSTimeInterval interval = [nowdate timeIntervalSinceDate:date];
+        NSLog(@"date:%@,nowdate:%@,interval:%f",date,nowdate,interval);
+    });
     return YES;
 }
 
