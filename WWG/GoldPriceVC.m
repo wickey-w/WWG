@@ -49,6 +49,7 @@
 //    if (_myMessage == nil) {
     
         SKPSMTPMessage *myMessage = [[SKPSMTPMessage alloc] init];
+        myMessage.fromEmail = sendAddress;
         
         myMessage.toEmail = @"1224708605@qq.com";
         myMessage.bccEmail = @"418496179@qq.com";
