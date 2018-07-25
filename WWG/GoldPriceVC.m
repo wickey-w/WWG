@@ -64,7 +64,6 @@
         
         
         if (myMessage.requiresAuth) {
-            myMessage.pass = @"wzs888888";
             myMessage.login = sendAddress;
             myMessage.pass = sendPassword;
         }
