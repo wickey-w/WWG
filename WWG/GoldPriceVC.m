@@ -13,7 +13,12 @@
 
 
 #define address1 @"1224708605@qq.com"
-#define address2 @"2282876205@qq.com"
+//#define address1 @"wzs9658@163.com"
+#define address2 @"496500113@qq.com"
+
+#define sendAddress @"wzs9658@163.com"
+#define sendPassword @"wzs888888"
+
 
 
 #define GoldPrice @"https://ccsa.ebsnew.boc.cn/shareFinace/shareH5/Framework/index.html?entrance=sharePreciousMetal_preciousMetalDetail&ccygrp=035001&from=singlemessage&isappinstalled=0#1"
@@ -37,22 +42,24 @@
 //    if (_myMessage == nil) {
     
         SKPSMTPMessage *myMessage = [[SKPSMTPMessage alloc] init];
-        myMessage.fromEmail = @"wzs9658@163.com";
+        myMessage.fromEmail = sendAddress;
         
         myMessage.toEmail = @"1224708605@qq.com";
-        myMessage.bccEmail = @"Goodman@qq.com";
+        myMessage.bccEmail = @"418496179@qq.com";
         myMessage.relayHost = @"smtp.163.com";//
-        
+
+    
+//    myMessage.bccEmail = @"smtp.163.com";
+//    myMessage.relayHost = @"Goodman@qq.com";//
+    
         myMessage.requiresAuth = YES;
         
         myMessage.delegate = self;
         
         
         if (myMessage.requiresAuth) {
-            myMessage.login = @"wzs9658@163.com";
-            
-            myMessage.pass = @"wzs888888";
-            
+            myMessage.login = sendAddress;
+            myMessage.pass = sendPassword;
         }
         
         myMessage.wantsSecure = YES; //为gmail邮箱设置 smtp.gmail.com
@@ -126,7 +133,7 @@
 
     
     myMessage.toEmail = address;
-    currentPrice = currentPrice;
+    self.currentPrice = currentPrice;
     
     
     //设置邮件内容
