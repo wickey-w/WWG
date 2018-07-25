@@ -37,8 +37,17 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                 </textField>
+<<<<<<< HEAD
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="268.00" borderStyle="roundedRect" placeholder="请输入卖出价" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UIM-qb-HgC">
                     <rect key="frame" x="86" y="63" width="66" height="30"/>
+=======
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="267.5" borderStyle="bezel" placeholder="请输入卖出价" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JcV-ON-kBU">
+                    <rect key="frame" x="164" y="252" width="97" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="Ues-94-u05"/>
+                        <constraint firstAttribute="width" constant="97" id="Wz6-Km-Y5T"/>
+                    </constraints>
+>>>>>>> b15523a8e5699b5db9dc8354c2227e9328da53a6
                     <nil key="textColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
